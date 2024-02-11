@@ -1,0 +1,396 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: Light;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: Light;
+  }
+  
+p {
+  font-family: 'EB Garamond';
+}
+
+.titleSection {
+  width: 90%;
+  margin: 3vw auto;
+}
+
+.runningTitleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.magazineRunningTitle {
+  color: #000;
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 100.5%;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-family: "EB Garamond";
+  font-size: 12vw;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+hr {
+  background-color: #000;
+}
+
+.underline {
+  height: 0.25vw;
+  width: 100%;
+}
+
+.firstUnderline {
+  margin-top: 0.5vw;
+}
+
+.underTitleLine {
+  height: 0.15vw;
+}
+
+.underTitleText {
+  text-align: center;
+  color: #000;
+  font-size: 3.6vw;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 1vw;
+}
+
+.dividingLineBold {
+  height: 0.25vw;
+}
+
+.dividingLineThin {
+  height: 0.15vw;
+  margin-top: -0.2vw;
+}
+
+.sectionTitle {
+  color: #000;
+  font-family: "EB Garamond";
+  font-size: 3.6vw;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.historyTitle {
+  text-align: left;
+  width: fit-content;
+  margin: 2vw 0;
+}
+
+.historySection {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.historyParagraghsContainer {
+  margin: 1.3vw 0;
+}
+
+.historyParagraph {
+  text-align: justify;
+  font-family: "EB Garamond";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.historyParagraghsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.historyParagraph {
+  width: 25vw;
+}
+
+.secondAndThirdParagraphs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 63%;
+}
+
+.secondUnderline {
+  margin: 1.5vw 0;
+}
+
+
+.firstParagraph {
+  width: 33%;
+}
+
+.secondParagraph {
+  width: 47%;
+}
+
+.thirdParagraph {
+  width: 47%;
+}
+
+.fourthParagraphContainer {
+  width: 100%;
+}
+
+.paragraphTitle {
+  color: #000;
+  font-family: "EB Garamond";
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.fourthParagraph {
+  width: 100%;
+
+  color: #000;
+  text-align: justify;
+  font-family: "EB Garamond";
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 2vw;
+}
+
+.mockupSection {
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  padding: 1vw;
+}
+
+.menu {
+  width: 40vw;
+}
+
+.mockups {
+  display: flex;
+  width: 45%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.signBoard {
+  width: 30vw;
+  margin-top: -2.5vw;
+}
+
+.books {
+  width: 37vw;
+}
+
+.stylesSection {
+  background: linear-gradient( #6c6c6c, transparent 2px), linear-gradient( 90deg, #676767, transparent 2px);
+  background-size: 4.2vw 4.2vw;
+  height: 36vw;
+  width: 90vw;
+  border: 2px solid;
+  margin: 2vw auto;
+  padding: 4vw;
+}
+
+.sectionTitle {
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 78.5%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+.stylesLine {
+  width: 30vw;
+  margin-right: -4vw;
+}
+
+.styleScheduleAndCoordinates {
+  display: flex;
+}
+
+.styleSchedule {
+  width: 45vw;
+  margin-left: -1vw;
+  margin-top:  -3.8vw;
+}
+
+.coordinatesLetter {
+  font-size: 3.5vw;
+  font-weight: 600;
+  line-height: 78.5%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.coordinatesDiv {
+  display: flex;
+}
+
+.coordinates {
+  margin-top: 3vw;
+  margin-left: 8.2vw;
+}
+
+.coordinatesText {
+  font-size: 3.5vw;
+}
+
+.coordinates {
+  margin-top: 3vw;
+  margin-left: 8.2vw;
+}
+
+.characteristics {
+  background-color: white;
+  display: flex;
+  width: 95vw;
+  margin: 1vw auto;
+  justify-content: space-between;
+}
+
+.characteristicsText {
+  width: 30%;
+
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 111%;
+  letter-spacing: 3%;
+  text-align: justify;
+
+  margin: 2vw auto;
+}
+
+.characteristicsBigLetters {
+  width: 90vw;
+  margin: -0.5vw auto 3vw auto
+}
+
+.qualities {
+  width: 90vw;
+  display: flex;
+  margin: 2vw auto;
+  justify-content: space-between;
+}
+
+.ruler {
+  width: 9.7vw;
+  margin-right: 3vw;
+}
+
+.qualitiesLines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.symbolsAndMockups {
+  display: flex;
+  width: 90vw;
+  margin: 2vw auto;
+  justify-content: space-between;
+}
+
+.symbolsImg {
+  width: 50vw;
+  margin-bottom: 1.5vw;
+}
+
+.mockupTicket {
+  width: 50vw;
+}
+
+.symbolsTextContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-content: start;
+}
+
+.aboveSymbolsText {
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 100.5%;
+  letter-spacing: 4%;
+  text-align: center;
+
+  margin-top: 1vw;
+}
+
+.symbolsTitle {
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.symbolText {
+  margin-top: 1.5vw;
+
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 111%;
+  letter-spacing: 3%;
+  text-align: justify;
+}
+
+.secondunderTitleLine {
+  width: 100%;
+}
+
+.mockupWhiskey {
+  width: 25.8vw;
+  margin-top: 2vw;
+  margin-left: 4vw;
+}
+
+.footer {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 2vw;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 111%;
+  letter-spacing: 3%;
+  text-align: justify;
+}
+
+
+@media (max-width: 800px) {
+  .dividingLineBold {
+    height: 0.25vw;
+  }
+  
+  .dividingLineThin {
+    height: 0.15vw;
+    margin-top: 0.2vw;
+  }
+
+  hr {
+    margin: 0;
+  }
+  
+}
